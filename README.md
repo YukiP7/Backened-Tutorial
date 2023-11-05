@@ -11,4 +11,4 @@
 ## DEPOLY YOUR SERVER
 - use render 
 - make a new repo
-- add .gitignore file and node modulus to it
+- add .gitignore file and node modulus and .env to it
