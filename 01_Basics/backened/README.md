@@ -54,4 +54,13 @@ so origin needs to be same
 - make a gitignore file and take data from .gitignore generator 
 - .env file for project 
 - src folder with app.js index.js file 
+- nodemon: it is a functionality at which when changes has been saved then it will reload automatically 
+- npm i -D nodemon
 
+- mkdir -->  to make some folders
+- controllers : Functionalities
+- db : How to connect database 
+- middlewares : code want to run in b/w or checking
+- models : database 
+- routes : standard approach of routes 
+- utils : file uploading utility , mailing , tokens withdraw ---> which work need to do many times in different files 

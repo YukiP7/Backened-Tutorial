@@ -3,13 +3,18 @@
   "version": "1.0.0",
   "description": "a mega project based on youtube with chai aur code ",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "npm run start"
+    "dev": "nodemon src/index.js"
   },
   "keywords": [
     "javascript",
     "youtube"
   ],
   "author": "Yukti Garg",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.1",
+    "prettier": "^3.1.0"
+  }
 }
