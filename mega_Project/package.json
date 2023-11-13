@@ -1,0 +1,15 @@
+{
+  "name": "package",
+  "version": "1.0.0",
+  "description": "a mega project based on youtube with chai aur code ",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run start"
+  },
+  "keywords": [
+    "javascript",
+    "youtube"
+  ],
+  "author": "Yukti Garg",
+  "license": "ISC"
+}

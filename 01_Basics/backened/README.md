@@ -32,3 +32,26 @@ so origin needs to be same
 - For react app : use proxy in package.json file
 - For vite : go tho vite.config.js
 - From this step - Backened Server url connect with frontend it means whenever u send request from any server but proxy will replaced it by its origin .
+
+## DataBase
+- Paid : Moon Mongoose
+- Free : eraser which help u make the model of data which is called data modelling
+- helper : can be Prisma or mongoose
+- Data modelling : statements 
+
+- ---import mongoose from 'mongoose'
+- ---new mongoose.Schema({})
+- export const User = mongoose.model(kya model bnau , kiske base par bnau)  ex: ("User" , userSchema) : user stored in database as users --> it is the feature of mongoose
+
+- timestamps is also an basic feature which is createdAt , updatedAt
+
+- go on StackBlitz to watch data Modelling sets..
+
+
+## Started With a new Project
+- npm init
+- after installasation of Backened Project starts with public folder And gitkeep file to it 
+- make a gitignore file and take data from .gitignore generator 
+- .env file for project 
+- src folder with app.js index.js file 
+
