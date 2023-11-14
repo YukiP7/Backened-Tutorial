@@ -64,3 +64,35 @@ so origin needs to be same
 - models : database 
 - routes : standard approach of routes 
 - utils : file uploading utility , mailing , tokens withdraw ---> which work need to do many times in different files 
+
+## Database Connection
+- create a project on mongo db atlas
+- import dotenv from npmjs
+- constants export mongodb file name
+
+- install dotenv , mongoose , express
+- jb bhi database se baat krne ki koshish krenege to problem aaskti h tho try catch mwrap krne ki koshish kro or we can go with promises
+- database is always in other continent ---> for minimize time use async await
+
+- Use async await and try catch 
+- iffe ()() --> direct execution after installation
+- ;(async () => {})() 
+- semicolon is introduced in front of iffe to clean the prev code 
+
+- 1st approach to connect database 
+- ;( async () => {
+    try {
+       await mongoose.connect(`${process.env.MONGODB_URI}/${DB_NAME}`)
+       app.on("error" , (error) => {
+            console.log("ERROR : " , error)
+            throw error 
+       })
+
+       app.listen(process.env.PORT , () => {
+            console.log(`App is listening on port ${process.env.PORT}`);
+       })
+    } catch (error) {
+        console.log("ERROR : " , error);
+        throw error
+    }
+} )()
